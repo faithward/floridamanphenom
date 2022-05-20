@@ -169,7 +169,7 @@ hr {
 	padding: 10px 0 40px 0;
 }
 .intro h1 {
-	color: rgba(255,255,255,0.9);
+	color: rgba(0,0,0,0.9);
 	font-size: 64px;
 	font-weight: 600;
 	letter-spacing: 1px;
@@ -177,7 +177,7 @@ hr {
 	margin-bottom: 20px;
 }
 .intro p {
-	color: rgba(255,255,255,0.8);
+	color: rgba(0,0,0,0.8);
 	font-size: 22px;
 	margin-bottom: 40px;
 	margin-top: 20px;
