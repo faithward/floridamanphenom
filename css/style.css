@@ -458,3 +458,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .quote {
 	padding: 0 !important;
 }
+
+li{
+	font-size: 18px;
+}
+
+ul{
+	margin: auto;
+	list-style-type: circle;
+	padding-left: 40px;
+}
