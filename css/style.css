@@ -17,6 +17,7 @@ h3, h4 {
 	font-weight: 300;
 	letter-spacing: 1px;
 }
+
 h5 {
 	text-transform: uppercase;
 	font-weight: 700;
@@ -448,4 +449,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	float: left;
 	margin-bottom: 20px;
 }
+}
+
+.white {
+	color: white;
+}
+
+.quote {
+	padding: 0 !important;
 }
