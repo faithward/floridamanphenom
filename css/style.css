@@ -2,7 +2,7 @@ body, html {
 	font-family: 'Akshar', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: #414a52;
+	color: #363e45;
 	width: 100% !important;
 	height: 100% !important;
 }
@@ -24,7 +24,7 @@ h5 {
 	line-height: 20px;
 }
 p.intro {
-	font-size: 20px;
+	font-size: 18px;
 	margin: 12px 0 0;
 	line-height: 24px;
 }
@@ -170,12 +170,13 @@ hr {
 	padding: 10px 0 40px 0;
 }
 .intro h1 {
-	color: rgba(0,0,0);
+	color: white;
 	font-size: 64px;
 	font-weight: 600;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
+	background: rgba(0,0,0,0.4);
 }
 .intro p {
 	color: rgba(0,0,0);
@@ -190,7 +191,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-	padding: 120px 0;
+	padding: 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,7fdce6+0,54d0dd+100 */
 	background: rgb(84,208,221); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(127,220,230,1) 0%, rgba(84,208,221,1) 100%); /* FF3.6-15 */
@@ -207,7 +208,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 #about p {
 	margin-bottom: 30px;
 	line-height: 23px;
-	font-size: 20px;
+	font-size: 18px;
 }
 /* Portfolio Section */
 #portfolio {
@@ -453,6 +454,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 .white {
 	color: white;
+	background-color: none;
+	background-color:rgba(0, 0, 0, 0.2)
 }
 
 .quote {
@@ -475,5 +478,10 @@ figure {
 	padding-bottom: 20px;
 }
 figcaption {
-	padding-left: 20px;
+	padding-left: 10px;
+}
+
+strong {
+	background: rgb(255, 255, 255, 0.3);
+	color: #2c3339;
 }
