@@ -488,6 +488,8 @@ strong {
 
 #essayContainer {
 	background-color: #54d0dd;
+	padding: 10px;
+	margin: 10px;
 }
 
 #essayContainer div {
