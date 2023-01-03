@@ -208,7 +208,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 #about p {
 	margin-bottom: 30px;
 	line-height: 23px;
-	font-size: 18px;
+	font-size: 26px;
 }
 /* Portfolio Section */
 #portfolio {
@@ -218,7 +218,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 	background: -moz-linear-gradient(top, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(113,119,125,1) 0%, rgba(65,74,82,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(113,119,125,1) 0%, rgba(65,74,82,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(113,119,125,1) 0%, rgba(65,74,82,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-sfilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', endColorstr='#414a52', GradientType=0 ); /* IE6-9 */
+/* sfilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', endColorstr='#414a52', GradientType=0 ); IE6-9 */
 }
 #portfolio h2 {
 	color: #54d0dd;
