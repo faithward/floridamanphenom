@@ -487,4 +487,12 @@ strong {
 
 #imageCenter {
 	margin: auto;
+	display: block;
+	max-height: 650px;
+}
+
+#map {
+	margin: auto;
+	display: block;
+	height: auto;
 }
